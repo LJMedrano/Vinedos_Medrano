@@ -7,8 +7,10 @@
     <title>Viñedos Medrano</title>
     <link rel="shortcut icon" href="multimedia/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head> 
-<body>
+<body class="fondoTodo">
     <div class="todo">
     <div class="fondoGris">
         <header class="fondoGris antiBr">
@@ -22,19 +24,19 @@
         </header>
     </div>
     <div class="fondoTodo">
-    <main class="fondoTodo antiBr">
-    <h1 class="colorvino">Viñedos Medrano</h1>
+    <main data-aos="fade-up" class="fondoTodo antiBr">
+        <h1 class="colorvino">Viñedos Medrano</h1>
         <h2 class="colorvino">Sobre Nosotros</h2>
         <div class="qsy">
-        <img src="multimedia/sobrenosotros.jpg" alt="Nuestras instalaciones" title="Nuestras instalaciones">
-        <article>
-            <p class="letraBlanca letraDe20 pIndex">
+            <img src="multimedia/sobrenosotros.jpg" alt="Nuestras instalaciones" title="Nuestras instalaciones">
+            <article>
+                <p class="letraBlanca letraDe20 pIndex">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magnam aliquam harum excepturi corrupti consequuntur quaerat ad sunt, illo, atque sapiente nihil tempore? Doloremque repudiandae reiciendis ut delectus quos perferendis?
-            </p>    
-        </article>
-    </div>
+                </p>    
+            </article>
+        </div>
     </main>
-    <section class="fondoTodo antiBr">  
+    <section class="fondoTodo antiBr" data-aos="fade-up">  
         <h2 class="colorvino">Turismo</h2>
         <div class="qsy">
         <img src="multimedia/turismo.jpg" alt="Nuestras habitaciones" title="Nuestras habitaciones">
@@ -46,7 +48,7 @@
             </article>
     </div>
     </section>
-    <section class="fondoTodo antiBr">
+    <section class="fondoTodo antiBr" data-aos="fade-up">
         <h2 class="colorvino"> Subscripciones</h2>
         <div class="qsy">
         <img src="multimedia/subscripciones.jpg" alt="Nuestros vinos " title="Nuestros Vinos">
@@ -68,5 +70,8 @@
     </footer>
 </div>    
 </div>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
