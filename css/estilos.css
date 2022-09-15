@@ -89,20 +89,13 @@ a{
     margin-left: 20px;
 }
 
-.main-img{
+.main-imgg{
     width: 1200px;
     height: 450px;
     position: relative;
     left: 35px
 }
 
-.qsy{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
 header{
     display: flex;
@@ -110,3 +103,15 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+.todo{  
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:250px 400px  350px 300px 300px 150px ;
+    grid-template-areas: 
+    "header header";
+    
+}
+
+
