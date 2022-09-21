@@ -23,6 +23,7 @@ section article p{
 }
 .letraBlanca{
     color: #d7dede;
+    
 }
 
 .letraDe20{
@@ -38,7 +39,6 @@ footer{
 .antiBr{
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
 }
 
 a{
@@ -81,7 +81,7 @@ a{
 }
 
 .pIndex{
-    height: 60px;
+    height: 125px;
     width: 400px;
     margin-top: 40px;
     margin-bottom: 65px;
@@ -89,12 +89,6 @@ a{
     margin-left: 20px;
 }
 
-.main-imgg{
-    width: 1200px;
-    height: 450px;
-    position: relative;
-    left: 35px
-}
 
 
 header{
@@ -104,14 +98,13 @@ header{
     align-items: center;
 }
 
-.todo{  
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:250px 400px  350px 300px 300px 150px ;
-    grid-template-areas: 
-    "header header";
-    
+.secciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
+.tablas{
+    background-color: #d7dede;
+}
